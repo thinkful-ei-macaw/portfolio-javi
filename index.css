@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Muli';
   }
   
   body {
@@ -9,12 +10,15 @@
     color: #444;
     text-align: center;
     line-height: 1.5;
+    background-color: #F47171;
   }
   
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color:#B40000;
+    color: white;
+  
   }
   
   nav {
@@ -36,21 +40,26 @@
   }
   
   header {
-    padding-top: 40px;
+    padding-top: 50px;
+    background-color: white;
   }
   
   section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
+    padding: 5px;
   }
   
-  .portfolio-title {
-    max-height: 100px;
-    padding-top: 50px;
+  .title {
+    background-color: #F47171;
+    
   }
   
-  section:nth-child(even) {
-    background-color: #ddd;
+  
+  .project {
+    background-color:#FFD3D0;
+    border-bottom: 1px white solid;
+  }
+  
+  .aboutme {
+    background-color:#FFD3D0;
   }
   
