@@ -101,12 +101,12 @@
 
   /* unvisited link */
 a:link {
-  color: white;
+  color: blue;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(229, 255, 0);
+  color: lightsalmon ;
 }
 
 /* mouse over link */
