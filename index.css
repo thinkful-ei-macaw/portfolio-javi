@@ -98,3 +98,46 @@
     background-color:#FFD3D0;
   }
 
+
+  /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(229, 255, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+  /*mobile styles: mobile first*/
+  @media only screen and (min-width: 350px) {
+    .projectss{
+      width: 350px;
+      height: 350px;
+    }
+  }
+  /*tablet styles*/
+  @media only screen and (min-width: 550px) {
+    .projectss{
+      width: 550px;
+      height: 450px;
+    }
+  }
+  /*desktop styles*/
+  @media only screen and (min-width: 800px) {
+    .projectss{
+      width: 800px;
+      height: 400px;
+    }
+  }
+  
